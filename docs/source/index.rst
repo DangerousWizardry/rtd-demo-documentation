@@ -34,7 +34,7 @@ Research and development team
 This application was originally developed by the Common Research Laboratory of Edouard Herriot Hospital (Laboratoire Commun de Recherche - HCL-bioMérieux, Lyon, France).
 
 .. image:: ../assets/LogoHCL.jpg
-   :height: 100px
+   :height: 100px\\
    :alt: Hospices Civils de Lyon logo
    :align: center
 
