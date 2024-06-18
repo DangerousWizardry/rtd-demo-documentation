@@ -19,13 +19,12 @@ extensions = [
     'sphinx.ext.intersphinx',
 ]
 
-intersphinx_mapping = {
 
-}
 intersphinx_disabled_domains = ['std']
 
 templates_path = ['_templates']
-html_css_files = ['source/assets/custom.css']
+html_static_path = ['assets']
+html_css_files = ['custom.css']
 
 # -- Options for HTML output
 
