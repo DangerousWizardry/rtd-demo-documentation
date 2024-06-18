@@ -1,5 +1,5 @@
 MIMICWizard Documentation
-########################
+##################
 
 **MIMICWizard** is a Shiny app allowing user to navigate throught the PhysioNet MIMIC-IV database, a freely accessible deidentified electronic health record (EHR) dataset
 
@@ -33,15 +33,17 @@ Research and development team
 
 This application was originally developed by the Common Research Laboratory of Edouard Herriot Hospital (Laboratoire Commun de Recherche - HCL-bioMérieux, Lyon, France).
 
-.. image:: ../assets/LogoHCL.jpg
-   :height: 100px\\
-   :alt: Hospices Civils de Lyon logo
-   :align: center
+.. rst-class:: logo-centered
 
-.. image:: ../assets/bm_logo_circle_rgb.png
-   :height: 100px
-   :alt: bioMérieux logo
-   :align: center
+   .. image:: assets/LogoHCL.jpg
+      :height: 100px
+      :alt: Hospices Civils de Lyon logo
+      :align: center
+
+   .. image:: assets/bm_logo_circle_rgb.png
+      :height: 100px
+      :alt: bioMérieux logo
+      :align: center
 
 The app is provided under open-source GNU GPLv3 licence. All contributions and suggestions are welcome. Learn more about contribution in our dedicated page How to contribute
 *Read about the MIMICWizard research paper*
