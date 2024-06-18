@@ -1,4 +1,4 @@
-.logo-centered{
-    display: inline-block;
-    text-align: center;
+.logo-container{
+    display: flex;
+    align-items: center;
 }

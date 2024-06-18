@@ -32,18 +32,16 @@ Research and development team
 ============================
 
 This application was originally developed by the Common Research Laboratory of Edouard Herriot Hospital (Laboratoire Commun de Recherche - HCL-bioMérieux, Lyon, France).
+.. rst-class:: logo-container
+   |pic1| |pic2|
 
-.. rst-class:: logo-centered
-
-   .. image:: assets/LogoHCL.jpg
+   .. |pic1| image:: assets/LogoHCL.jpg
       :height: 100px
       :alt: Hospices Civils de Lyon logo
-      :align: center
 
-   .. image:: assets/bm_logo_circle_rgb.png
+   .. |pic2| image:: assets/bm_logo_circle_rgb.png
       :height: 100px
       :alt: bioMérieux logo
-      :align: center
 
 The app is provided under open-source GNU GPLv3 licence. All contributions and suggestions are welcome. Learn more about contribution in our dedicated page How to contribute
 *Read about the MIMICWizard research paper*
