@@ -1,4 +1,3 @@
-
 MIMICWizard Documentation
 #########################
 
@@ -14,8 +13,8 @@ First, access to patient databases is often restricted, limiting the scope of re
 
 Initially designed for medical practitioner, it offer a tool to help drawing and exploring new hypothesis. 
 
-Getting started
-***************
+Installation Requirements
+*************************
 
 As MIMIC-IV database can be considered as open-source database, it's still under restricted access. User should follow a training about patient data management and sign an agreement to access the data.
 That's why MIMICWizard is offering the possibilitiy to use demo database which contain only 100 patients but could showcase the app features.
@@ -26,19 +25,11 @@ That's why MIMICWizard is offering the possibilitiy to use demo database which c
 * R version 4.2 (or greater)
 * MIMIC-IV Clinical Database files `demo file <https://physionet.org/content/mimic-iv-demo/>`_ or request a `full access <https://mimic.mit.edu/docs/gettingstarted/>`_
 
-.. note::
+.. warning::
 
-   MIMICWizard has been developped to work with a Postgres database. The application is not intented to be compatible with BigQuery or other proprietary solution
+   MIMICWizard has been developped to work with a Postgres database. The application is not intented to be compatible with BigQuery or other proprietary solution.
 
-.. versionchanged:: 1.3
-   Changed
-
-Navigate through the app 
-************************
-
-
-Extended usage with data-science knowledge
-******************************************
+You can follow the installation instructions on the getting started page.
 
 
 Changelog
@@ -46,7 +37,7 @@ Changelog
 
 
 Research and development team
-=============================
+*****************************
 
 This application was originally developed by the Common Research Laboratory of Edouard Herriot Hospital (Laboratoire Commun de Recherche - HCL-bioMérieux, Lyon, France).
 
@@ -86,4 +77,3 @@ References and data
    :hidden:
    
    index
-   gettingstarted
