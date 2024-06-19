@@ -70,12 +70,3 @@ References and data
 
 
 **Read about MIMIC-IV database and Physionet repository**
-
-.. toctree::
-   :maxdepth: 3
-   :hidden:
-   
-   index
-   installation
-   explore
-   extend
