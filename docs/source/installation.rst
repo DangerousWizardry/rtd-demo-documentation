@@ -119,9 +119,3 @@ The configuration file is located at the root of MIMIWizard folder. This file is
 |                      |                |                                                                                               |
 +----------------------+----------------+-----------------------------------------------------------------------------------------------+
 
-
-.. toctree::
-   :maxdepth: 3
-   :hidden:
-   
-   installation
