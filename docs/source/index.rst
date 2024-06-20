@@ -57,16 +57,32 @@ This application was originally developed by the Common Research Laboratory of E
       :height: 130px
       :alt: bioMérieux logo
 
-The app is provided under open-source GNU GPLv3 licence. All contributions and suggestions are welcome. Learn more about contribution in our dedicated page How to contribute
-*Read about the MIMICWizard research paper*
+The app is provided under open-source GNU GPLv3 licence. All contributions and suggestions are welcome. Learn more about contribution in our dedicated GitHub page.
 
-.. note::
+.. seealso::
 
-   This project is under active development.
+   You can read more about MIMICWizard project in our dedicated research paper 
 
+   TBA
+   
 
 References and data
 *******************
 
+Read about MIMIC-IV database and Physionet repository used in MIMICWizard
 
-**Read about MIMIC-IV database and Physionet repository**
+MIMIC-IV Clinical Database (version 2.2)
+++++++++++++++++++++++++++++++++++++++++
+   Johnson, A., Bulgarelli, L., Pollard, T., Horng, S., Celi, L. A., & Mark, R. (2023). MIMIC-IV (version 2.2). PhysioNet. https://doi.org/10.13026/6mm1-ek67.
+
+MIMIC-IV Clinical Database Demo (version 2.2)
++++++++++++++++++++++++++++++++++++++++++++++
+   Johnson, A., Bulgarelli, L., Pollard, T., Horng, S., Celi, L. A., & Mark, R. (2023). MIMIC-IV Clinical Database Demo (version 2.2). PhysioNet. https://doi.org/10.13026/dp1f-ex47.
+   
+MIMIC-IV Clinical Database Publication
+++++++++++++++++++++++++++++++++++++++
+   Johnson, A.E.W., Bulgarelli, L., Shen, L. et al. MIMIC-IV, a freely accessible electronic health record dataset. Sci Data 10, 1 (2023). https://doi.org/10.1038/s41597-022-01899-x
+
+PhysioNet Publication
++++++++++++++++++++++
+   Goldberger, A., Amaral, L., Glass, L., Hausdorff, J., Ivanov, P. C., Mark, R., ... & Stanley, H. E. (2000). PhysioBank, PhysioToolkit, and PhysioNet: Components of a new research resource for complex physiologic signals. Circulation [Online]. 101 (23), pp. e215–e220.
