@@ -108,14 +108,32 @@ Configuration file
 *************************
 The configuration file is located at the root of MIMIWizard folder. This file is named ``global.R`` and store all the configuration options.
 
-+----------------------+----------------+-----------------------------------------------------------------------------------------------+
-| Configuration option | Possible value | Description                                                                                   |
-+======================+================+===============================================================================================+
-|| **INTERACTIVE**     | - TRUE         || Do you want to activate the application landing page where user can choose if he want to use |
-||                     | - FALSE        || demo or hosted database. Should be disabled for hosted application.                          |
-+----------------------+----------------+-----------------------------------------------------------------------------------------------+
-|                      |                |                                                                                               |
-+----------------------+----------------+-----------------------------------------------------------------------------------------------+
-|                      |                |                                                                                               |
-+----------------------+----------------+-----------------------------------------------------------------------------------------------+
-
++-------------------------------------+-------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Configuration option                | Possible value                            | Description                                                                                                                                                      |
++=====================================+===========================================+==================================================================================================================================================================+
+| **INTERACTIVE**                     | - TRUE                                    | Do you want to activate the application landing page where user can choose if he want to use demo or hosted database. Should be disabled for hosted application. |
+|                                     | - FALSE                                   |                                                                                                                                                                  |
++-------------------------------------+-------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| **CACHE_DIR**                       | empty string or <path/to/cache/folder>    | Repository where the application cache object are written                                                                                                        |
+|                                     |                                           | Default "" create a cache folder in the application directory                                                                                                    |
+|                                     |                                           | Shiny Server should have writing rights in this folder                                                                                                           |
+|                                     |                                           | Need a closing /                                                                                                                                                 |
+|                                     |                                           |                                                                                                                                                                  |
++-------------------------------------+-------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| **APPLICATION_MODE**                | - INIT_DEMO                               | Force application mode, only if interactive is set to FALSE                                                                                                      |
+|                                     | - DEMO                                    |                                                                                                                                                                  |
+|                                     | - HOSTED                                  | - INIT_DEMO will regenerate the demo database and override the existing demo database                                                                            |
+|                                     |                                           | use this mode if you have only one user at the same time and want the database to be clean each time the user start the app.                                     |
+|                                     |                                           |                                                                                                                                                                  |
+|                                     |                                           | - DEMO run the application in restricted mode, the application will use the demo database configuration. Some function won't be available.                       |
+|                                     |                                           |                                                                                                                                                                  |
+|                                     |                                           | - HOSTED run the application in full mode, the application will use the hosted database configuration.                                                           |
++-------------------------------------+-------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| **HOSTED_DBNAME**, **HOSTED_HOST**, | Your database configuration, if it exists |                                                                                                                                                                  |
+| **HOSTED_PORT**, **HOSTED_USER**,   |                                           |                                                                                                                                                                  |
+| **HOSTED_PASSWORD**                 |                                           |                                                                                                                                                                  |
++-------------------------------------+-------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| **DEMO_DBNAME**, **DEMO_HOST**,     | The demo database configuration           | If you're using default postgres configuration, you shouldn't have anything to change                                                                            |
+| **DEMO_PORT**, **DEMO_USER**,       |                                           |                                                                                                                                                                  |
+| **DEMO_PASSWORD**                   |                                           |                                                                                                                                                                  |
++-------------------------------------+-------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------+
