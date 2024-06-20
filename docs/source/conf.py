@@ -21,7 +21,7 @@ extensions = [
 
 intersphinx_disabled_domains = ['std']
 
-master_doc = 'contents'
+master_doc = 'index'
 source_suffix = '.rst'
 
 templates_path = ['_templates']
