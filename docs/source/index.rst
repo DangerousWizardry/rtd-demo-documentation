@@ -90,4 +90,8 @@ PhysioNet Publication
 +++++++++++++++++++++
    Goldberger, A., Amaral, L., Glass, L., Hausdorff, J., Ivanov, P. C., Mark, R., ... & Stanley, H. E. (2000). PhysioBank, PhysioToolkit, and PhysioNet: Components of a new research resource for complex physiologic signals. Circulation [Online]. 101 (23), pp. e215–e220.
 
-
+.. toctree::
+   :maxdepth: 3
+   :hidden:
+   
+   index
