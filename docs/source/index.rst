@@ -57,14 +57,17 @@ This application was originally developed by the Common Research Laboratory of E
 
    .. |pic1| image:: assets/Logo_LCR.png
       :height: 90px
+      :class: no-scaled-link
       :alt: Hospices Civils de Lyon logo
 
    .. |pic2| image:: assets/LogoHCL.jpg
       :height: 90px
+      :class: no-scaled-link
       :alt: Hospices Civils de Lyon logo
 
    .. |pic3| image:: assets/bm_logo_circle_rgb.png
       :height: 130px
+      :class: no-scaled-link
       :alt: bioMérieux logo
 
 The app is provided under open-source GNU GPLv3 licence. All contributions and suggestions are welcome. Learn more about contribution in our dedicated GitHub page.
