@@ -1,3 +1,12 @@
+.. toctree::
+   :maxdepth: 3
+   :hidden:
+   
+   installation
+   explore
+   extend
+
+
 MIMICWizard Documentation
 #########################
 
