@@ -8,16 +8,16 @@ Explore the data (Parameter Exploration)
 
 The first tab is used to explore the list of all recorded events in MIMIC-IV database associated with their relative count.
 
-.. _parametersexplore:
-
-.. figure:: assets/parameters_explore.png
+.. figure:: 
+      assets/parameters_explore.png
+      :name: parametersexplore
       :width: 100%
       :class: no-scaled-link
 
       First page of the parameters list, user can search by label and order by event count 
 
 You can search any event in the database and see if it's efficiently populated in MIMIC or at least find a proxy that could meet 
-your needs :numref:`Title <parametersexplore>`. In fact a lots of events/patient data are redundant or splitted in several item and that's the main purpose of this first tab, see how the data is divided in the database.
+your needs (:numref:`parametersexplore`). In fact a lots of events/patient data are redundant or splitted in several item and that's the main purpose of this first tab, see how the data is divided in the database.
 
 Discover a patient card (Patient Explorer)
 ******************************************
