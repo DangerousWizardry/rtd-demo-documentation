@@ -188,4 +188,4 @@ You could also define your cohort of interest. Your exploration will be limited 
       :width: 100%
       :class: no-scaled-link
 
-      Parameters of a sample Cardiologist that could be used for heart-related research in the application
+      Parameters of a sample Cardiologist profile that could be used for heart-related research in the application

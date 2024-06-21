@@ -7,3 +7,9 @@
 .wy-nav-content {
     max-width: 100%;
 }
+
+.er-schema{
+    max-width: 100%;
+    max-height: 398px;
+    aspect-ratio: 554 / 398;
+}

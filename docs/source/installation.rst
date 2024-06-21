@@ -91,8 +91,13 @@ Host the application on your infrastructure
 You can host MIMICWizard using `Posit Shiny Server <https://posit.co/download/shiny-server/>`_ 
 
 They provide a detailed documentation about how to deploy a Shiny Application in their `Administrator Guide <https://docs.posit.co/shiny-server/>`_
-
 The combination of the current page and the Posit documentation should be sufficient to deploy MIMICWizard considering your infrastructure modalities.
+
+
+.. danger:: MIMICWizard has not been build to be injection-free and without vunerabilities. As a result, **I strongly discourage to distribute this app on a public infrastructure.**
+   
+   Also, I recommend to give **read-only rights to the database user** you're using in the app **on MIMIC-IV Data**.
+   Note that database user should have writing right on public schema as its mandatory for app content to work as intented.
 
 Host the full database
 *************************
