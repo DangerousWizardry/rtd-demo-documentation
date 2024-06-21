@@ -11,4 +11,4 @@ python:
 
 sphinx:
   configuration: docs/source/conf.py
-  sphinx.builder: "dirhtml"
+  builder: "dirhtml"
