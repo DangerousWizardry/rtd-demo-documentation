@@ -175,3 +175,17 @@ Statistic residuals standardizartion and other statistical restriction could not
 
 Define your profile to navigate faster
 **************************************
+
+In order to use the app efficiently, MIMICWizard provide a profile management system that you can access at the bottom left of the dashboard with the ``Manage user profile`` button.
+
+You can there create user profile covering your subject of expertise or your research field.
+By defining parameters of interest in a profile, theses events will be automatically shown when you open a patient card so you don"t have to click on all your event of interest each time you open a new patient.
+You could also define your cohort of interest. Your exploration will be limited to those, allowing faster navigation when there is several MIMICWizard user on your infrastructure.
+
+.. figure:: 
+      assets/user_management.png
+      :name: user_management
+      :width: 100%
+      :class: no-scaled-link
+
+      Parameters of a sample Cardiologist that could be used for heart-related research in the application
