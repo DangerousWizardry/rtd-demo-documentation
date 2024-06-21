@@ -8,15 +8,16 @@ Explore the data (Parameter Exploration)
 
 The first tab is used to explore the list of all recorded events in MIMIC-IV database associated with their relative count.
 
-.. _parameters_explore:
+.. _parametersexplore:
+
 .. figure:: assets/parameters_explore.png
       :width: 100%
       :class: no-scaled-link
 
       First page of the parameters list, user can search by label and order by event count 
 
-
-You can search any event in the database and see if it's efficiently populated in MIMIC or at least find a proxy that could meet your needs (:numref:`parameters_explore`). In fact a lots of events/patient data are redundant or splitted in several item and that's the main purpose of this first tab, see how the data is divided in the database.
+You can search any event in the database and see if it's efficiently populated in MIMIC or at least find a proxy that could meet 
+your needs :numref:`Title <parametersexplore>`. In fact a lots of events/patient data are redundant or splitted in several item and that's the main purpose of this first tab, see how the data is divided in the database.
 
 Discover a patient card (Patient Explorer)
 ******************************************
@@ -28,7 +29,8 @@ enabling easy reference sharing between user without transmitting a 3 value key 
 Timeline module
 +++++++++++++++
 
-.. _parameters_explore:
+.. _patient_explorer_timeline:
+
 .. figure:: assets/patient_explorer_timeline.png
       :width: 100%
       :class: no-scaled-link
@@ -38,17 +40,27 @@ Timeline module
 The timeline is used to represent complex event such as free-text event, event represented as a character or a factor or to go deeper in the data.
 It allows an almost complete access to the database row behind this event. 
 
-To add an event type in the database, search this event in the bar just above the timeline and click on ``+``. If you cannot find an event on this searchbar, it means that the selected patient haven't any event of this type referenced for the selected hadm/stay.
+To add an event type to the timeline, search this event in the bar just above the timeline and click on ``+``. If you cannot find an event on this searchbar, it means that the selected patient haven't any event of this type referenced for the selected hadm/stay.
 
 If a lots of data is stacked at the same time point, it can be summarized by their category name. Then you have to select the item to observe all linked events.
+
+:numref:`Title <patient_explorer_timeline>`
 
 Graph module
 ++++++++++++
 
-.. _parameters_explore:
+.. _patient_explorer_graph:
+
 .. figure:: assets/patient_explorer_graph.png
       :width: 100%
       :class: no-scaled-link
+
+      3 parameters patient graph, displaying Blood Pressure (systolic/diastolic/mean). Each parameters has is own y-axis and scale.
+
+The timeline is used to represent numerical data. It can represent any kind of numerical data, you're the only master who knows if what is displayed make sense.
+You can choose to display s
+
+:numref:`Title <patient_explorer_graph>`
 
 .. tip:: You can use the ``++`` button to add an event both in the timeline and in the graph module
 

@@ -6,6 +6,7 @@ project = 'MIMIC Wizard'
 copyright = 'GNU GPLv3'
 author = 'Lucas DUVAL'
 
+language = 'en'
 release = '0.6'
 version = '0.6.0'
 
